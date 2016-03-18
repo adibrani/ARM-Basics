@@ -8,11 +8,11 @@
         "MyVMAdminUserName": {
             "value": "adminuser"
         },
-        "MyVMAdminPassword": {
-            "value": "P@ssword1"
-        },
         "MyPublicIPDnsName": {
             "value": "rickrainey-demovm"
+        },
+        "MyStorageType": {
+            "value": "Standard_LRS"
         }
     }
 }
