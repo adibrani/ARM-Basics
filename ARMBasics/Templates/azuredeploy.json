@@ -194,13 +194,9 @@
     }
   ],
   "outputs": {
-    "DNS Name": {
+    "dnsName": {
       "type": "string",
       "value": "[reference(variables('MyPublicIPName')).dnsSettings.fqdn]"
-    },
-    "IP Address": {
-      "type": "string",
-      "value": "[reference(variables('MyPublicIPName')).ipAddress]"
     }
   }
 }
